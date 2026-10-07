@@ -24,7 +24,7 @@ folding, validation/pretty-print, find-in-files, completion, LSP.
 
 ## Approach
 
-Adopt **sora-editor** (`io.github.rosemoe`, version 0.24.6) as the editor engine and use
+Adopt **sora-editor** (`io.github.rosemoe`, version 0.24.4) as the editor engine and use
 its **TextMate** language module for highlighting. This provides all in-scope features
 natively and is the foundation for future IDE features, avoiding hand-written highlighters
 for ~13 languages.
@@ -106,7 +106,7 @@ Language is re-applied on every open; if no language matches, the editor uses th
 
 - Bump Kotlin plugin to a version that can read Sora's Kotlin 2.1.x stdlib metadata
   (plan: 2.2.10, already cached).
-- Add dependencies (BOM `io.github.rosemoe:editor-bom:0.24.6`):
+- Add dependencies (BOM `io.github.rosemoe:editor-bom:0.24.4`):
   `io.github.rosemoe:editor`, `io.github.rosemoe:language-textmate`.
 - Enable core library desugaring (`com.android.tools:desugar_jdk_libs:2.1.5`,
   `isCoreLibraryDesugaringEnabled = true`) as required by `language-textmate` for API < 33.
@@ -137,7 +137,7 @@ Language is re-applied on every open; if no language matches, the editor uses th
 - **Kotlin/AGP/dependency compatibility** — bump Kotlin first; raise compileSdk/AGP only if
   the build demands it. Verify with a build before further work.
 - **Sora API specifics** — follow the official quickstart; confirm `setWordwrap`,
-  `setTextSize`, and undo/redo/search method names against the 0.24.6 API during
+  `setTextSize`, and undo/redo/search method names against the 0.24.4 API during
   implementation.
 - **Grammar availability/quality** — prefer sora's proven sample grammars; accept
   no-highlight fallback for any missing grammar.

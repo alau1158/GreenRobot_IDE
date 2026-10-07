@@ -6,14 +6,14 @@
 
 **Architecture:** Keep the existing app shell (SAF open/save, recents, dirty guard, prefs). Swap the editor widget to `io.github.rosemoe.sora.widget.CodeEditor`. A pure `LanguageRegistry` maps file extension → TextMate scope. A `TextMateBootstrap` loads bundled grammar/theme assets once. Sora owns undo/redo, search, brackets, and indentation.
 
-**Tech Stack:** Kotlin, Android Views, sora-editor 0.24.6 (`editor` + `language-textmate`), TextMate grammars, core library desugaring, JUnit4.
+**Tech Stack:** Kotlin, Android Views, sora-editor 0.24.4 (`editor` + `language-textmate`), TextMate grammars, core library desugaring, JUnit4.
 
 ## Global Constraints
 
 - Application id / namespace: `com.alau.texteditor`.
 - `minSdk = 26`, `targetSdk = 34`, `compileSdk = 34` (raise to 35 only if dependency resolution requires it).
 - Java source/target compatibility `JavaVersion.VERSION_17`; JDK 17 for Gradle.
-- sora-editor BOM `io.github.rosemoe:editor-bom:0.24.6`; modules `io.github.rosemoe:editor`, `io.github.rosemoe:language-textmate`.
+- sora-editor BOM `io.github.rosemoe:editor-bom:0.24.4`; modules `io.github.rosemoe:editor`, `io.github.rosemoe:language-textmate`.
 - Core library desugaring: `com.android.tools:desugar_jdk_libs:2.1.5` and `isCoreLibraryDesugaringEnabled = true`.
 - Kotlin Gradle plugin `2.2.10` (must read Sora's Kotlin 2.1.x stdlib metadata).
 - Files are read/written as UTF-8 (BOM stripped). Unknown extensions open with no highlighting.
@@ -85,7 +85,7 @@ dependencies {
     implementation("com.google.android.material:material:1.11.0")
     implementation("androidx.activity:activity-ktx:1.8.2")
 
-    implementation(platform("io.github.rosemoe:editor-bom:0.24.6"))
+    implementation(platform("io.github.rosemoe:editor-bom:0.24.4"))
     implementation("io.github.rosemoe:editor")
     implementation("io.github.rosemoe:language-textmate")
 
