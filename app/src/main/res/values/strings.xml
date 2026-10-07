@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Text Editor</string>
+    <string name="untitled">Untitled</string>
+
+    <string name="new_document">New</string>
+    <string name="open">Open</string>
+    <string name="save">Save</string>
+    <string name="save_as">Save as</string>
+    <string name="recents">Recent files</string>
+    <string name="find_replace">Find and replace</string>
+    <string name="word_wrap">Word wrap</string>
+    <string name="monospace">Monospace</string>
+    <string name="increase_font">Increase font size</string>
+    <string name="decrease_font">Decrease font size</string>
+    <string name="undo">Undo</string>
+    <string name="redo">Redo</string>
+    <string name="about">About</string>
+
+    <string name="unsaved_title">Unsaved changes</string>
+    <string name="unsaved_message">Save your changes before continuing?</string>
+    <string name="unsaved_exit">Save your changes before closing?</string>
+    <string name="discard">Discard</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="find">Find</string>
+    <string name="replace">Replace</string>
+    <string name="replace_all">Replace all</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="match_case">Match case</string>
+    <string name="close">Close</string>
+
+    <string name="no_matches">No matches</string>
+    <string name="no_recents">No recent files</string>
+    <string name="clear">Clear</string>
+    <string name="saved">Saved</string>
+    <string name="replaced_n">Replaced %1$d occurrence(s)</string>
+
+    <string name="status_format">Ln %1$d, Col %2$d  ·  %3$d chars  ·  UTF-8</string>
+    <string name="error_open">Couldn\'t open file: %1$s</string>
+    <string name="error_save">Couldn\'t save file: %1$s</string>
+    <string name="untitled_txt">untitled.txt</string>
+    <string name="about_message">A simple, reliable text editor.\n\nOpen, edit, find and replace, and save plain text files. Files are read and written as UTF-8.</string>
+</resources>

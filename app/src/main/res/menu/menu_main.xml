@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_open"
+        android:icon="@drawable/ic_open"
+        android:title="@string/open"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_save"
+        android:title="@string/save"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_undo"
+        android:icon="@drawable/ic_undo"
+        android:title="@string/undo"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_redo"
+        android:icon="@drawable/ic_redo"
+        android:title="@string/redo"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_find"
+        android:icon="@drawable/ic_search"
+        android:title="@string/find_replace"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_new"
+        android:title="@string/new_document"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_save_as"
+        android:title="@string/save_as"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_recents"
+        android:title="@string/recents"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_wrap"
+        android:checkable="true"
+        android:title="@string/word_wrap"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_mono"
+        android:checkable="true"
+        android:title="@string/monospace"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_font_inc"
+        android:title="@string/increase_font"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_font_dec"
+        android:title="@string/decrease_font"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/about"
+        app:showAsAction="never" />
+</menu>
