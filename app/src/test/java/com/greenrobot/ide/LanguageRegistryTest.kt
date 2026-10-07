@@ -1,4 +1,4 @@
-package com.alau.texteditor
+package com.greenrobot.ide
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull

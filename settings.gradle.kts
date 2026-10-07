@@ -14,5 +14,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TextEditor"
+rootProject.name = "GreenRobot_IDE"
 include(":app")

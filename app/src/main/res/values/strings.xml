@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Text Editor</string>
+    <string name="app_name">GreenRobot IDE</string>
     <string name="untitled">Untitled</string>
 
     <string name="new_document">New</string>

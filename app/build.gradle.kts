@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.alau.texteditor"
+    namespace = "com.greenrobot.ide"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.alau.texteditor"
+        applicationId = "com.greenrobot.ide"
         minSdk = 26
         targetSdk = 34
-        versionCode = 2
-        versionName = "1.1"
+        versionCode = 3
+        versionName = "1.2"
         vectorDrawables { useSupportLibrary = true }
     }
 
@@ -34,6 +34,7 @@ android {
 
     kotlinOptions {
         jvmTarget = "17"
+        freeCompilerArgs += "-Xskip-metadata-version-check"
     }
 
     buildFeatures {

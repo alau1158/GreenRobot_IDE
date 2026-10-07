@@ -1,4 +1,4 @@
-package com.alau.texteditor
+package com.greenrobot.ide
 
 import android.content.Intent
 import android.content.res.Configuration
@@ -12,8 +12,8 @@ import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AppCompatActivity
-import com.alau.texteditor.databinding.ActivityMainBinding
-import com.alau.texteditor.databinding.DialogFindBinding
+import com.greenrobot.ide.databinding.ActivityMainBinding
+import com.greenrobot.ide.databinding.DialogFindBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import io.github.rosemoe.sora.event.ContentChangeEvent
 import io.github.rosemoe.sora.event.PublishSearchResultEvent

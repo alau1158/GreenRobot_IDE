@@ -1,4 +1,4 @@
-package com.alau.texteditor
+package com.greenrobot.ide
 
 import android.content.Context
 import io.github.rosemoe.sora.langs.textmate.TextMateColorScheme

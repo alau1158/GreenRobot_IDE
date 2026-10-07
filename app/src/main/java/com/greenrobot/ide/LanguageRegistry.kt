@@ -1,4 +1,4 @@
-package com.alau.texteditor
+package com.greenrobot.ide
 
 import java.util.Locale
 
